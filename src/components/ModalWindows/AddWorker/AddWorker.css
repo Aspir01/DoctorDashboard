@@ -1,0 +1,11 @@
+.section2 {
+    margin: 20px 0;
+    width: 200px;
+}
+
+.name2 {
+    width: 400px;
+    height: 40px;
+    border: 1.5px solid #2F9FD8;
+    border-radius: 10px;
+}
