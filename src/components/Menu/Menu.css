@@ -1,0 +1,71 @@
+.Menu {
+    flex-direction: column;
+    width: 70px;
+    height: 100%;
+    background: #ffffff80;
+    justify-content: space-between;
+}
+
+.Menu_2 {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 70px;
+    cursor: pointer;
+}
+
+.link {
+    text-decoration: none;
+    z-index: 1;
+}
+
+.Menu_2 svg {
+    margin: 10px 0;
+}
+
+.Menu_2:hover {
+    background: #2F9FD8;
+    width: 370px;
+    z-index: 1;
+}
+
+.Menu_2:hover svg {
+    margin-left: 100px;
+    margin-right: 10px;
+}
+
+.Menu_2:hover svg path {
+    fill: #FFFFFF;
+}
+
+.Menu_3 {
+    display: none;
+    color: white;
+    line-height: 25px;
+    text-decoration: none;
+}
+
+.Menu_2:hover .Menu_3 {
+    display: block;
+}
+
+.Menu_3.one {
+    margin: 0 10px;
+}
+
+.Menu_2.two:hover svg {
+    margin-left: 130px;
+}
+
+.Menu_2.three:hover svg {
+    margin-left: 110px;
+}
+
+.Menu_2.last:hover svg {
+    margin-left: 140px;
+    margin-right: 10px;
+}
+
+.Menu_2.last:hover p {
+    margin-right: 80px;
+}
